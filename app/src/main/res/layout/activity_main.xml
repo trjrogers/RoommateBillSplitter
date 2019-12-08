@@ -40,20 +40,9 @@
             android:id="@+id/rentEditText"
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
-            android:ems="10"/>
+            android:ems="10"
+            android:inputType="numberDecimal"/>
     </LinearLayout>
-<!--    <LinearLayout-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_weight="1"-->
-<!--        android:orientation="vertical">-->
-
-<!--        <ListView-->
-<!--            android:id="@+id/itemsListView"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent" />-->
-<!--    </LinearLayout>-->
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -84,7 +73,8 @@
             android:id="@+id/electricityEditText"
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
-            android:ems="10"/>
+            android:ems="10"
+            android:inputType="numberDecimal"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -116,7 +106,8 @@
             android:id="@+id/waterEditText"
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
-            android:ems="10"/>
+            android:ems="10"
+            android:inputType="numberDecimal"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -148,7 +139,8 @@
             android:id="@+id/internetEditText"
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
-            android:ems="10"/>
+            android:ems="10"
+            android:inputType="numberDecimal"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -180,7 +172,8 @@
             android:id="@+id/groceriesEditText"
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
-            android:ems="10"/>
+            android:ems="10"
+            android:inputType="numberDecimal"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -191,7 +184,7 @@
         android:id="@+id/splitButton"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:text="Test" />
+        android:text="Split" />
     </LinearLayout>
 <!--    <LinearLayout-->
 <!--        android:layout_width="wrap_content"-->

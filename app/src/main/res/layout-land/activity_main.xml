@@ -40,7 +40,8 @@
             android:id="@+id/rentEditText"
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
-            android:ems="10"/>
+            android:ems="10"
+            android:inputType="numberDecimal"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -72,7 +73,8 @@
             android:id="@+id/electricityEditText"
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
-            android:ems="10"/>
+            android:ems="10"
+            android:inputType="numberDecimal"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -104,7 +106,8 @@
             android:id="@+id/waterEditText"
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
-            android:ems="10"/>
+            android:ems="10"
+            android:inputType="numberDecimal"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -136,7 +139,8 @@
             android:id="@+id/internetEditText"
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
-            android:ems="10"/>
+            android:ems="10"
+            android:inputType="numberDecimal"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -168,83 +172,18 @@
             android:id="@+id/groceriesEditText"
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
-            android:ems="10"/>
+            android:ems="10"
+            android:inputType="numberDecimal"/>
     </LinearLayout>
-<!--    <LinearLayout-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_weight="1"-->
-<!--        android:orientation="horizontal" >-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:id="@+id/electricity"-->
-<!--            android:layout_weight="1" />-->
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:layout_weight="1"-->
-<!--            android:id="@+id/electricityLabel"-->
-<!--            android:text="@string/electricity"-->
-<!--            android:layout_gravity="center_vertical" />-->
-<!--    </LinearLayout>-->
-<!--    <LinearLayout-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_weight="1"-->
-<!--        android:orientation="horizontal">-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:id="@+id/water"-->
-<!--            android:layout_weight="1" />-->
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:layout_weight="1"-->
-<!--            android:id="@+id/waterLabel"-->
-<!--            android:text="@string/water"-->
-<!--            android:layout_gravity="center_vertical" />-->
-<!--    </LinearLayout>-->
-<!--    <LinearLayout-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_weight="1"-->
-<!--        android:orientation="horizontal">-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:id="@+id/internet"-->
-<!--            android:layout_weight="1" />-->
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:layout_weight="1"-->
-<!--            android:id="@+id/internetLabel"-->
-<!--            android:text="@string/internet"-->
-<!--            android:layout_gravity="center_vertical"/>-->
-<!--    </LinearLayout>-->
-<!--    <LinearLayout-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_weight="1"-->
-<!--        android:orientation="horizontal" >-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:id="@+id/groceries"-->
-<!--            android:layout_weight="1"-->
-<!--            android:layout_gravity="left" />-->
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:layout_weight="1"-->
-<!--            android:id="@+id/groceriesLabel"-->
-<!--            android:text="@string/groceries"-->
-<!--            android:layout_gravity="center_vertical"/>-->
-<!--    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/splitButton"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="Split" />
+    </LinearLayout>
 </LinearLayout>

@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent.putExtra("water", String.valueOf(waterEditText.getText()));
                 intent.putExtra("internet", String.valueOf(internetEditText.getText()));
                 intent.putExtra("groceries", String.valueOf(groceriesEditText.getText()));
-                intent.putExtra("num_roommates", String.valueOf(prefs.))
+                intent.putExtra("num_roommates", prefs.getString("pref_number_of_roommates", "2"));
                 this.startActivity(intent);
                 break;
         }
